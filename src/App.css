@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.merkinta{
+  border: 0.7em solid;
+  border-top-color: #46bbcb;
+  border-left-color:#5cfaff;
+  border-right-color: #2a727c;
+  border-bottom-color: #389ca9;
+  background-color: #4dd0e1;
+  border-radius: 0.3em;
+  color: #000000;
+  padding: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+.merkinta:hover {
+  border-top-color:#ba2d65;
+  border-left-color:#f83c87;
+  border-right-color: #721c3e;
+  border-bottom-color: #9b2654;
+  background-color: #f06292;
+}
+
+.merkinta-tyyppi, .merkinta-lenkki-info, .merkinta-kalorikulutus{
+  font-size: 80%;
+}
+
+.merkinta-kokonaismatka{
+  float: right;
+  color: #555;
+}
+
+.merkinta-kalorikulutus{
+  float: right;
+  font-weight: bold;
+}
+
+.merkinta-lenkki-info div{
+  float: left;
+  margin-right: 1em;
+}
+
+.merkinta-lenkki-info-matka div{
+  margin-right: 0.5em;
+}
+
+.merkinta-lenkki-info-vauhti div{
+  margin-right: 0.5em;
+}
+
+.merkinta-ennatys{
+  font-size: 90%;
+}
+
+.merkinta-nappi{
+  visibility: hidden;
+}
+
+.merkinta-nappi button{
+  border: none;
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.merkinta:hover .merkinta-nappi{
+  visibility: visible;
+  color: #E57373;
+}
+
+.merkinta-nappi button:hover, .merkinta-nappi button:hover i{
+  color:#D32F2F;
+}
+
+.merkinta-clear{
+  clear: both;
+}
+
+.lisaysnappi{
+  position: absolute;
+  right: 1em;
+  top: -1em;
+  border: 0.45em solid;
+  background-color: #ef5350;
+  border-top-color: #d74b48;
+  border-left-color: #ff6460;
+  border-right-color:#832e2c;
+  border-bottom-color: #b33e3c;
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 140%;
+  border-radius: 0.2em;
+  box-shadow: 2px 2px 6px #666;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.lomake div label{
+  display: block;
+  font-size: 75%;
+  margin-top: 0.5em;
+}
+
+.lomake-napit{
+  margin-top: 1em;
+}
+
+.lomake-napit button{
+  margin-right: 0.5em;
+}
+
+.tilasto{
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
+.tilasto-valikko{
+  font-size: 75%;
+}
+
+.nakyma{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+
+}
+
+.nakyma-sisalto{
+  padding: 1em;
+  background-color: #4dd0e1;
+  border: 2px solid;
+  border-color: #009faf;
+  border-bottom: none;
+  height: 80%;
+  overflow: auto;
+}
+
+.valilehdet{
+  display: flex;
+  background-color: #099faf;
+  margin-bottom: 1em;  
+}
+
+.valilehdet div{
+  flex: 1;
+  text-align: center;
+  font-size: 80%;
+  border: 2px solid #008f9e;
+  background-color: transparent;
+}
+
+.valilehdet div button{
+  width: 100%;
+  height: 100%;
+  padding: 0.5em;
+  border: none;
+  background-color: transparent;
+}
+
+.valilehdet .valilehdet-valittu{
+  background-color: #4dd0e1;
+  border-top: none;
+}
+
+.lenkkipankki{
+  width: 80%;
+  max-width: 45em;
+  height: 95vh;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.lenkkipankki-otsikko{
+  margin: 0;
+  font-size: 200%;
+}
